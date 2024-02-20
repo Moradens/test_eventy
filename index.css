@@ -1,0 +1,50 @@
+body{
+    font-family: "Arial";
+}
+.body{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+}
+.formular{
+    display: flex;
+    background-color: lightblue;
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: 85px;
+}
+.listOfTasks{
+    flex-direction: column;
+    display: flex;
+}
+.items{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+li{
+    min-width: 300px;
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    list-style-type: none;
+    display: flex;
+}
+input{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+}
+.submit{
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: white;
+}
+select{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+}
